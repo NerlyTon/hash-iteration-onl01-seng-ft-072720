@@ -15,7 +15,7 @@ end
 
 ## BONUS ##
 ## Change "xit" to "it" in the test block to enable
-def age_appropriate_birthday" do
+describe "#age_appropriate_birthday" do
   it "only prints the birthday greeting if the birthday kid 12 or younger" do
     birthday_kids = {
       "Timmy" => 9,
@@ -27,3 +27,6 @@ def age_appropriate_birthday" do
 
   end
 end
+
+def age_appropriate_birthday(birthday_kids)
+  birthday_kids.each 
